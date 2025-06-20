@@ -1,0 +1,22 @@
+1. What is .gitignore? Why do we need it?
+🔹 Purpose:
+The .gitignore file tells Git which files/folders NOT to track or push to GitHub.
+
+🔹 Why?
+You often have files you don’t want to share, like:
+
+Local environments (.venv/)
+
+Logs (*.log)
+
+OS/Editor files (.DS_Store, *.swp)
+
+Machine learning model files (*.h5, *.pt, *.pkl)
+
+Notebooks with big outputs
+
+Without .gitignore, those files will clutter your repo or even expose sensitive data.
+
+____________________________________
+
+
