@@ -19,7 +19,13 @@ Just create txt file.
 and if you cloned the repo you need to run this command in your terminal to install all packages:
 
 ```bash
-$ pip install -r requirments.txt
+pip install -r requirments.txt
 ```
 
-setup the .env 
+
+## Run the FastAPI App
+To run the FastAPI application using uvicorn, use the following command:
+
+ ```bash
+ uvicorn main:app --reload --host 127.0.0.1 --port 8081 ``` 
+
