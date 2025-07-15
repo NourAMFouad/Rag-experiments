@@ -1,7 +1,9 @@
-from  fastapi import FastAPI
-app = FastAPI()
+from fastapi import FastAPI
+from dotenv import load_dotenv
+from Routes import base
 
-@app.get("/welcome")
-def welcome_message():
-    return {"message":"Welcome to our first step in learning RAG."}
-    
+# Load env once here
+load_dotenv("assets/.env")
+
+app = FastAPI()
+app.include_router(base.base_router)
