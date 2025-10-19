@@ -1,0 +1,14 @@
+Python:
+	docker --> docker-compose, dockerfile
+	APIs --> RestFul, websocket, gRPC
+	load testing --> concurrency, --> Postman
+	Design pattern --> singleton, Factory design
+	database --> vector database -->
+	API Documentation
+	GitHub
+	sync, async
+	Data viz , working on Dataframes
+
+
+
+_______________________________________________________________
